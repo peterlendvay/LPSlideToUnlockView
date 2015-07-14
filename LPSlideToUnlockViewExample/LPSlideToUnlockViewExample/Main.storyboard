@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Drag Container View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LPDragContainerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TbX-XA-6YG" customClass="LPSlideContainerView">
+                                <rect key="frame" x="250" y="150" width="100" height="140"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="3JP-bl-aEe"/>
+                                    <constraint firstAttribute="height" constant="140" id="kzS-KI-XVu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mWl-UP-wl3" customClass="LPSlideContainerView">
+                                <rect key="frame" x="16" y="319" width="568" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="EZD-zx-sd6"/>
+                                    <constraint firstAttribute="height" constant="100" id="Q9x-P8-NIs"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="EZD-zx-sd6"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mWl-UP-wl3" firstAttribute="top" secondItem="TbX-XA-6YG" secondAttribute="bottom" constant="29" id="9YZ-0d-kGF"/>
+                            <constraint firstItem="mWl-UP-wl3" firstAttribute="centerX" secondItem="TbX-XA-6YG" secondAttribute="centerX" id="A3q-ry-XFg"/>
+                            <constraint firstItem="mWl-UP-wl3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="PWg-Dt-30O"/>
+                            <constraint firstAttribute="centerX" secondItem="TbX-XA-6YG" secondAttribute="centerX" id="Z0i-cI-tok"/>
+                            <constraint firstAttribute="trailing" secondItem="mWl-UP-wl3" secondAttribute="trailing" constant="16" id="irv-Y4-Vo7"/>
+                            <constraint firstAttribute="centerY" secondItem="TbX-XA-6YG" secondAttribute="centerY" constant="80" id="tAS-ik-ZJm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dragContainerView" destination="TbX-XA-6YG" id="1Jz-Ri-LcJ"/>
+                        <outlet property="slideRightToUnlock" destination="mWl-UP-wl3" id="a8d-TD-Jwh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
