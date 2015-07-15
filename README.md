@@ -2,6 +2,11 @@
 Easy to implement, slide to unlock library for iOS. Can be used in both portrait and landscape mode. 
 
 
+Landscape mode          |  Portrait mode
+:-------------------------:|:-------------------------:
+![landscape mode](http://i.imgur.com/DeO7lFV.gif)  |  ![portrait mode](http://i.imgur.com/dVtY59R.gif)
+
+
 # Requirements
 * iOS 7
 * ARC
