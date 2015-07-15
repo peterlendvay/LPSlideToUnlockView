@@ -2,7 +2,7 @@
 //  LPSlideToUnlockViewExampleTests.m
 //  LPSlideToUnlockViewExampleTests
 //
-//  Created by Peter Lendvay on 2015. 07. 14..
+//  Created by Peter Lendvay on 2015. 07. 15..
 //  Copyright (c) 2015. Peter Lendvay. All rights reserved.
 //
 

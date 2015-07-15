@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02C04AFA1B554C8900F73197"
+               BlueprintIdentifier = "02C04B3A1B563CEA00F73197"
                BuildableName = "LPSlideToUnlockViewExample.app"
                BlueprintName = "LPSlideToUnlockViewExample"
                ReferencedContainer = "container:LPSlideToUnlockViewExample.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02C04B131B554C8900F73197"
+               BlueprintIdentifier = "02C04B531B563CEA00F73197"
                BuildableName = "LPSlideToUnlockViewExampleTests.xctest"
                BlueprintName = "LPSlideToUnlockViewExampleTests"
                ReferencedContainer = "container:LPSlideToUnlockViewExample.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02C04B131B554C8900F73197"
+               BlueprintIdentifier = "02C04B531B563CEA00F73197"
                BuildableName = "LPSlideToUnlockViewExampleTests.xctest"
                BlueprintName = "LPSlideToUnlockViewExampleTests"
                ReferencedContainer = "container:LPSlideToUnlockViewExample.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02C04AFA1B554C8900F73197"
+            BlueprintIdentifier = "02C04B3A1B563CEA00F73197"
             BuildableName = "LPSlideToUnlockViewExample.app"
             BlueprintName = "LPSlideToUnlockViewExample"
             ReferencedContainer = "container:LPSlideToUnlockViewExample.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02C04AFA1B554C8900F73197"
+            BlueprintIdentifier = "02C04B3A1B563CEA00F73197"
             BuildableName = "LPSlideToUnlockViewExample.app"
             BlueprintName = "LPSlideToUnlockViewExample"
             ReferencedContainer = "container:LPSlideToUnlockViewExample.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02C04AFA1B554C8900F73197"
+            BlueprintIdentifier = "02C04B3A1B563CEA00F73197"
             BuildableName = "LPSlideToUnlockViewExample.app"
             BlueprintName = "LPSlideToUnlockViewExample"
             ReferencedContainer = "container:LPSlideToUnlockViewExample.xcodeproj">
